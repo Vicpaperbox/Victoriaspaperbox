@@ -19,14 +19,14 @@
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-image: url("img/storm.gif");
+      background-color: #90CAF9;
       color: #fff;
-      padding: 120px 25px;
+      padding: 50px 25px;
       font-family: Montserrat, sans-serif;
   }
   
   .container-fluid {
-      padding: 110px 50px;
+      padding: 90px 50px;
   }
   .bg-skyblue {
       background-color: #90CAF9;
