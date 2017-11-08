@@ -1,0 +1,84 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head> 
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weighty Graphs</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/weighty_styles.css" rel="stylesheet">
+	<script type="text/javascript" src="js/canvasjs.min.js"></script>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/jsweighty2.js"></script>
+	<script src="js/canvasjs.min.js"></script>
+
+</head>
+
+<body>
+	<div class="row row-content" id="weighty_graphs">	
+		<div  class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-2">
+					<i class="fa fa-heart" aria-hidden="true" ></i>
+				</div>
+				<div class="col-xs-12 col-sm-10">
+					<h3><strong>My personal diary of self-esteem</strong></h3>
+					<div class="row"  style="padding:10px;">
+						<div class="col-xs-12" id="greeting">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">	
+				<form id = "WeightyGraphs" method = "post" action = "" class="form-horizontal" role="form">
+					
+					<div class="row">
+						<div  class="col-xs-8" id="goals" style="padding:10px; font-size:20px;">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-4" id="previous_weight" style="padding:10px; font-size:20px;">
+						</div>
+						
+					</div>
+					<div class="row">
+						<div  class="col-xs-8" id="food_list" style="padding:10px; font-size:20px;">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-3" style="padding:10px; font-size:20px;">
+							<label for ="your weight">My weight today</label>
+							<input type="number"  id = "weight" min = "30" max = "300" step = "0.1" value = "50"
+							 name = "number" required>
+						</div>
+						<div class="col-xs-12 col-sm-3"  style="padding:5px; font-size:20px;">
+							<label for="today date">Today</label>
+							<input type="date" id="date" name="date" reguired>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6" style="padding:10px;">
+							<textarea class= "form-control" id="food_list" name="food_list" rows="4" placeholder="List of my all food intake"></textarea>
+						</div>
+						
+					</div>
+					<div class="form-group">
+						<p>A journey of a thousand miles begins with a single step.</p>
+						<div class="col-sm-10" style="padding:10px;">
+							<div class="btn-group" role="group">
+								<button type="submit" id="submit" class="btn btn-warning btn-block" style="width:150px">Save</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				
+			</div>
+		</div>	
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

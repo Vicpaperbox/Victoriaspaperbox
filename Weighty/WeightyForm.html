@@ -1,0 +1,97 @@
+<!DOCTYPE html5>
+	
+<html lang="en">
+<head> 
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weighty</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/weighty_styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/jsweighty.js"></script>
+</head>
+
+<body>
+	<div class="row row-content" id="weighty_front_page">
+		<div  class="container">
+			<div class="row" style="padding:40px;">
+				<div class="col-sm-12">
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="https://github.com/Vicpaperbox/Weighty"><img class="media-object img-thumbnail" src="img/weighty.png" alt="Weighty" style="width: 80px;"></a>
+						</div>
+						<div class="media-body">
+							<h2 class="media-heading padding"><strong>Weighty. </strong>My diary of self-esteem<i class="fa fa-heart" aria-hidden="true"></i></h2>
+						</div>
+					 </div>
+				</div>
+			</div>
+			<div class="row col-sm-12 padding">
+				<p>I want to  keep an eye on all weight changes.
+								No matter, loose or gain weight, but it will be always under<br>   <strong><span style="font-size: 25px;" id="control">  Somebody control</span></strong>. <br>
+								</p>
+			</div>
+			<div class="row">
+				<form id="WeightyForm" role="form" method = "post" action = "">
+					<div class="col-xs-12 col-sm-7 form-horizontal">
+						<label for="name">My name</label>
+						<input type="text" class="form-control padding" id="name" name="name" aria-describedby="name" placeholder="My preferred name" required>
+						<small id="namesmall" class="form-text text-muted">Get in touch with yourself.</small>
+						<input type="email" class="form-control padding" id="emailid" name="emailid" aria-describedby="email" placeholder="Email">
+						<small id="emailsmall" class="form-text text-muted">I'll never share my email with anyone else.</small>
+						<label for ="today">date</label>
+						<input type="date" id="date" name="date">
+						<label for ="your weight">weight</label>
+						<input type="number" min="30" max ="300" step="0.1" value ="50" id="weight" name="number">
+						<textarea class= "form-control" id="food_list" name="food_list" rows="3" placeholder="Today food intake list"></textarea>
+						<label for = "height">height,cm </label>
+						<input type ="number" min="100" max="200" step="1" value="120" id="height" name="number">
+						<label for = "age">age </label>
+						<input type="number" min="15" max ="150" step="1" value="30" id="age" name="age">
+						<input type="radio"  checked="checked" name = "gender" value = "male"> male
+						<input type="radio"  name = "gender" value = "female"> female<br>
+						<textarea class= "form-control" id="feedback" name="feedback" rows="4" placeholder="Weight changing goals"></textarea>
+						<p class="padding">It is easy enough to roll down into the negative thoughts when my weight goals aren’t meet at the time.<br><strong>
+						<span id="start">What shall I do? :(</span></strong></p>
+						<button type="submit" id="submit" class="btn btn-warning btn-block"  data-toggle="tooltip" title="a journey of a thousand miles begins with a single step" 
+							data-placement="top" style="width:200px">Save</button>
+					</div>
+					<div class="col-xs-12 col-sm-5 form-group">
+						<img src="img/weighty_illustr.png" style="width:70%">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+     </script>
+	 <script>
+		$(function() {
+
+		$('#control').fadeOut(500, function() {
+			$(this).text('My control and My control only!').fadeIn(500);
+		});
+
+		});
+	 </script>
+	 <script>
+		$(function() {
+
+		$('#start').fadeOut(2000, function() {
+			$(this).text('I start by typing my weight and food intake daily:))').fadeIn(2000);
+		});
+
+		});
+	 </script>
+</body>
+</html>
