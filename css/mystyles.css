@@ -38,9 +38,11 @@
   
   .closure-left{
 	  padding-left: 0px;
+	  margin-top: 0px;
   }
   .closure-right{
 	  padding-right: 0px;
+	  margin-top: 0px;
   }
   .glyph {
 	  font-size: 200px;
@@ -241,9 +243,11 @@
 	 color: #7C7C7C;
 	 font-size: 20px;
  }
- .google{
-	 padding-left: 50px;
- }
+
  #blog{
 	 background-color:#f3df89;
+ }
+ 
+ #small_logo{
+	  width: 36px;
  }
