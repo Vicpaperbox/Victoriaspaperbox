@@ -21,8 +21,8 @@ $(function(){
 
 function showForm2(object) {
 	// TODO show the form
-		$("#greeting").html("Happy "+object.name);
-		$("#goals").html("My goals:  " +object.feedback);
+		$("#greeting").html("It is action time, "+object.name);
+		$("#goals").html("My goals are:  " +object.feedback);
 		$("#previous_weight").html("My previous weight in kg was:  " +object.weight[object.weight.length-1].weight);
 		console.log("Todays weight", object.weight);
 		$("#food_list").html("Last time I ate: " +object.food_list);
