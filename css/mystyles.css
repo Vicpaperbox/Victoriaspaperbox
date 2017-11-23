@@ -2,6 +2,7 @@
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #7C7C7C;
+	  
   }
   h2 {
       font-size: 30px;
@@ -21,12 +22,12 @@
   .jumbotron {
       background-color: #90CAF9;
       color: #fff;
-      padding: 50px 25px;
+      padding: 80px 40px;
       font-family: Montserrat, sans-serif;
   }
-  
+
   .container-fluid {
-      padding: 90px 50px;
+      padding: 20px 50px;
   }
   .bg-skyblue {
       background-color: #90CAF9;
