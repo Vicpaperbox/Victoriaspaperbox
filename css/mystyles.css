@@ -6,8 +6,23 @@
   }
   h2 {
       font-size: 30px;
-      text-transform: uppercase;
-      color: #FF7961;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+	  padding: 20px;
+  }
+  
+  #start{
+	  font:   Montserrat, sans-serif;
+	  font-size: 30px;
+      color: #FFFFFF;
+      font-weight: 50;
+	  padding: 70px;
+  }
+  
+   h3 {
+	  font:  Montserrat, sans-serif;
+      font-size: 30px;
+      color: #FFFFFF;
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -22,18 +37,19 @@
   .jumbotron {
       background-color: #90CAF9;
       color: #fff;
-      padding: 80px 40px;
       font-family: Montserrat, sans-serif;
+	  padding: 110px;
   }
 
   .container-fluid {
       padding: 20px 50px;
+	  font: 15px Lato, sans-serif;
   }
   .bg-skyblue {
       background-color: #90CAF9;
   }
   .stringent {
-	  color:#ffffff;
+	  color:#FF7961;;
 	  
   }
   
@@ -250,3 +266,12 @@
  #small_logo{
 	  width: 36px;
  }
+ 
+ .ux{
+	 font: 18px Lato, sans-serif;
+ }
+ 
+ .port{
+	 color:#ffffff;
+ }
+ 
