@@ -273,5 +273,9 @@
  
  .port{
 	 color:#ffffff;
+	 padding: 10px;
  }
  
+ #services {
+	 margin-bottom: 60px;
+ }
