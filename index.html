@@ -17,7 +17,6 @@
 	  gtag('config', 'UA-109609656-1', { 'optimize_id': 'GTM-T3ZKC8P'});
 	</script>
 	
-
 	
 	<title>Website services: Google Analytics, UX, SEO, CMS | Victoriaspaperbox.com</title>
 	<meta name="description" content="Website services: Google Analytics, UX, SEO Services, building websites, eCommerce tracking, content management, and more.">
@@ -165,7 +164,9 @@
 			</div>
 	  </div>
 	</div>
+	
 	<div id="contact" class="container-fluid">
+	<form action="/action_page.php" method="get" target="_self">
 	  <h2 class="text-center stringent">CONTACT ME</h2>
 	  <div class="row">
 		<div class="col-sm-5">
@@ -184,11 +185,13 @@
 		  <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
 		  <div class="row">
 			<div class="col-xs-8 col-sm-12 form-group">
-			  <button class="btn btn-default pull-right" type="submit">Send</button>
+			  <button class="btn btn-default pull-right" type="submit" name="action" onlick="ga('send', 'event', {eventCategory:'Contact', eventAction:
+			  'InformationRequest', eventLabel:'Contact Us'});">Send</button>
 			</div>
 		  </div>
 		</div> 
 		</div>
+		</form>
 	</div>
 	
 	<footer class="container-fluid text-center bg-skyblue">
