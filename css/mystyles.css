@@ -1,9 +1,22 @@
  body {
-      font: 400 0.938em Lato, sans-serif;
+      font-family: Raleway, sans-serif;
       line-height: 1.8;
       color: #7C7C7C;
-	  
   }
+	p {
+    line-height: 1.625;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.sidebar {
+    background-color: #fafafa;
+    font-weight: 400;
+    margin-bottom: 36px;
+    padding: 20px;
+}
+
+
   #website {
       font-size: 20px;
       color: #FFFFFF;
@@ -28,30 +41,31 @@
   }
   
   h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #FF7961;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }  
+    line-height: 1.25;
+    font-size: 32px;
+    letter-spacing: 0;
+	color: #414141;
+}  
   .jumbotron {
       background-color: #90CAF9;
+	  background: url('ga.png') center top #FFF;
       color: #fff;
       font-family: Montserrat, sans-serif;
-	  margin-top: 50px;
+	  padding: 150px;
   }
 
   .container-fluid {
-      padding: 40px 40px;
-	  font: 15px Lato, sans-serif;
+      margin-left: 140px;
+	  margin-right: 140px;
+	  font: 15px Lato light, sans-serif;
   }
-  .bg-skyblue {
+.bg-skyblue {
       background-color: #90CAF9;
   }
   .stringent {
-	  color:#FF7961;
-	  padding: 60px;
+	  color: #414141;
 	  margin-bottom: 60px;
+	font-family: Lato light, sans-serif;
   }
   
   .closure-left{
@@ -103,23 +117,26 @@
   }
   
   #chestnut{
-	  background-color: #C07264 !important;
+	  background-color: #F3E5E2 !important;
   }
   
   #rhythm{
-	  background-color: #75C8CD;
+	background-color: #fafafa;
+	line-height: 1.625;
+    font-size: 16px;
+    letter-spacing: 0;
   }
   #verdigris{
-	  background-color: #73A3A9;
+	  background-color: #E5EEEF;
   }
   #pewter{
-	  background-color: #8B9DBA;
+	  background-color: #D4DBE5;
   }
   #bittersweet{
-	  background-color: #DA8DB4;
+	  background-color: #F8EAF1;
   }
   #midnight{
-	  background-color: #73A5D3;
+	  background-color: #D8E6F3;
   }
 
   .carousel-control.right, .carousel-control.left {
@@ -269,12 +286,11 @@
  }
  
  .ux{
-	 font: 18px Lato, sans-serif;
+	 font-family: Lato light, sans-serif;
  }
  
  .port{
-	 color:#ffffff;
-	 padding: 10px;
+	color: #7C7C7C;
  }
  
  #services {
