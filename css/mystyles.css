@@ -55,9 +55,8 @@
   }
 
   .container-fluid {
-      margin-left: 140px;
-	  margin-right: 140px;
 	  font: 15px Lato light, sans-serif;
+		margin-top: 30px;
   }
 .bg-skyblue {
       background-color: #90CAF9;
